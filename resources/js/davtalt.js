@@ -30,7 +30,7 @@ while(true){
 }
 //Итератор
 //1.forEach() арга
-aimag.forEach(function(statesItem)){
+aimag.forEach(function(statesItem){
 console.log('->'+aimag);
 });
 //2.map() арга
