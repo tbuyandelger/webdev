@@ -25,32 +25,32 @@ while ("" !== words[i]) {
 console.log("Эхний үгийн урт: " + i);
 
 //Төгсгөлгүй давталт
-while(true){
+while (true) {
   //...
 }
 //Итератор
 //1.forEach() арга
-aimag.forEach(function(statesItem){
-console.log('->'+aimag);
+aimag.forEach(function(statesItem) {
+  console.log("->" + aimag);
 });
 //2.map() арга
-let baimag = aimag.map(function(aimagiig){
- return aimagiig.toUpperCase();
+let baimag = aimag.map(function(aimagiig) {
+  return aimagiig.toUpperCase();
 });
 console.log(baimag);
 //3. filter() арга
-let filterAimag = aimag.filter(function(param){
-return param[0]==='З';
+let filterAimag = aimag.filter(function(param) {
+  return param[0] === "З";
 });
 console.log(filterAimag);
 //4.some() арга
-let test = function(param){
-return param[1]=='а';
-}
+let test = function(param) {
+  return param[1] == "а";
+};
 console.log(aimag.some(test));
 
 //5.every() арга
-function checkLength(value){
-return value.length>5;
+function checkLength(value) {
+  return value.length > 5;
 }
 console.log(aimag.every(checkLength));
