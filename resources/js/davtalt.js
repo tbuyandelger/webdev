@@ -25,9 +25,9 @@ while ("" !== words[i]) {
 console.log("Эхний үгийн урт: " + i);
 
 //Төгсгөлгүй давталт
-while (true) {
+/*while (true) {
   //...
-}
+}*/
 //Итератор
 //1.forEach() арга
 aimag.forEach(function(statesItem) {
