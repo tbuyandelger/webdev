@@ -32,7 +32,7 @@ while(true){
 //1.forEach() арга
 aimag.forEach(function(statesItem)){
 console.log('->'+aimag);
-}
+});
 //2.map() арга
 let baimag = aimag.map(function(aimagiig){
  return aimagiig.toUpperCase();
